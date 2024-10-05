@@ -14,6 +14,7 @@ class pd {
 
     void display() {
         System.out.println("Name: " + name + " Age: " + age);
+
     }
 }
 
@@ -22,6 +23,7 @@ public class Const {
     public static void main(String[] args) {
         pd c = new pd();
         pd c1 = new pd("urvi", 19);
+        
 
         c.display();
         c1.display();
